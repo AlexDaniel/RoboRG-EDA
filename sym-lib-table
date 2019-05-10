@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name silentstepstick_tmc2130)(type Legacy)(uri ${KIPRJMOD}/silentstepstick_tmc2130.lib)(options "")(descr ""))
+)

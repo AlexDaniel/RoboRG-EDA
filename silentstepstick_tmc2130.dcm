@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SilentStepStick_TMC2130
+D Breakout Board, Stepper Driver TMC2130
+K Breakout Board Stepper Driver TMC2130
+$ENDCMP
+#
+#End Doc Library
