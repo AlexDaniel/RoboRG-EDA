@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title "RoboRG Camera Motion Control System"
 Date "2019-04-03"
 Rev "1.0.0"
@@ -28,13 +28,11 @@ F 3 "" H 6600 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 3450 6600 3450
+	6750 3250 6600 3250
 Wire Wire Line
-	6600 3450 6600 4400
+	6600 3250 6600 4400
 Wire Wire Line
-	6750 3850 6500 3850
-Wire Wire Line
-	6500 3850 6500 3150
+	6750 3450 6500 3450
 $Comp
 L Device:D_Zener D?
 U 1 1 5DBC8AFA
@@ -179,22 +177,24 @@ Wire Wire Line
 $Comp
 L Connector:AudioJack3_Switch J2
 U 1 1 5C90F83D
-P 6950 3650
-F 0 "J2" H 6670 3650 50  0000 R CNN
-F 1 "AudioJack3_Switch" H 6670 3559 50  0000 R CNN
-F 2 "RoboRG-footprints:Jack_2.5mm_PJ-218A-SMT_Horizontal" H 6950 3650 50  0001 C CNN
-F 3 "~" H 6950 3650 50  0001 C CNN
-	1    6950 3650
+P 6950 3450
+F 0 "J2" H 6670 3450 50  0000 R CNN
+F 1 "AudioJack3_Switch" H 6670 3359 50  0000 R CNN
+F 2 "RoboRG-footprints:Jack_2.5mm_PJ-218A-SMT_Horizontal" H 6950 3450 50  0001 C CNN
+F 3 "~" H 6950 3450 50  0001 C CNN
+	1    6950 3450
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 6750 3950
-Wire Wire Line
-	5950 3650 6750 3650
 NoConn ~ 6750 3750
-Text HLabel 6700 3250 1    50   Output ~ 0
+NoConn ~ 6750 3550
+Text HLabel 6700 3050 1    50   Output ~ 0
 LANC-detect
 Wire Wire Line
-	6750 3550 6700 3550
+	6750 3350 6700 3350
 Wire Wire Line
-	6700 3550 6700 3250
+	6700 3350 6700 3050
+Wire Wire Line
+	6500 3450 6500 3150
+Wire Wire Line
+	5950 3650 6750 3650
 $EndSCHEMATC
