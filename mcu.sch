@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 7 7
 Title "RoboRG Camera Motion Control System"
 Date "2019-04-03"
 Rev "1.0.0"
