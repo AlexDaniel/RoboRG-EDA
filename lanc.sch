@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "RoboRG Camera Motion Control System"
-Date "2019-04-03"
-Rev "1.0.0"
+Date "2019-05-13"
+Rev "1.0.1"
 Comp "RGVID.EU"
 Comment1 "Licensed under GNU AGPLv3 (or any later version)"
 Comment2 "    Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>"
