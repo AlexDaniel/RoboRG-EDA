@@ -755,7 +755,7 @@ AR Path="/5D821DFB" Ref="D?"  Part="1"
 AR Path="/5D7FF127/5D821DFB" Ref="D1"  Part="1" 
 F 0 "D1" V 4404 3479 50  0000 L CNN
 F 1 "3.3V" V 4495 3479 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4450 3400 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4450 3400 50  0001 C CNN
 F 3 "~" H 4450 3400 50  0001 C CNN
 	1    4450 3400
 	0    1    1    0   
