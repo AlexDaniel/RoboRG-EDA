@@ -12,8 +12,8 @@
   (page A4 portrait)
   (title_block
     (title "RoboRG Camera Motion Control System")
-    (date 2019-05-13)
-    (rev 1.0.1)
+    (date 2019-05-16)
+    (rev 1.0.2)
     (company RGVID.EU)
     (comment 1 "Licensed under GNU AGPLv3 or any later version of the license")
     (comment 2 "    Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>")
