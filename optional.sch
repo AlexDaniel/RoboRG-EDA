@@ -76,40 +76,32 @@ Wire Wire Line
 	3800 2350 3800 2450
 Wire Wire Line
 	4350 2350 4350 2450
-Wire Wire Line
-	3550 3900 3700 3900
-Wire Wire Line
-	3550 4000 3700 4000
 $Comp
 L power:GND #PWR?
 U 1 1 5D821CB4
-P 2950 5000
+P 2950 4900
 AR Path="/5D821CB4" Ref="#PWR?"  Part="1" 
 AR Path="/5D7FF127/5D821CB4" Ref="#PWR04"  Part="1" 
-F 0 "#PWR04" H 2950 4750 50  0001 C CNN
-F 1 "GND" H 2955 4827 50  0000 C CNN
-F 2 "" H 2950 5000 50  0001 C CNN
-F 3 "" H 2950 5000 50  0001 C CNN
-	1    2950 5000
+F 0 "#PWR04" H 2950 4650 50  0001 C CNN
+F 1 "GND" H 2955 4727 50  0000 C CNN
+F 2 "" H 2950 4900 50  0001 C CNN
+F 3 "" H 2950 4900 50  0001 C CNN
+	1    2950 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2950 4800 2950 5000
 $Comp
 L power:GND #PWR?
 U 1 1 5D821CBB
-P 2650 5000
+P 2650 4900
 AR Path="/5D821CBB" Ref="#PWR?"  Part="1" 
 AR Path="/5D7FF127/5D821CBB" Ref="#PWR03"  Part="1" 
-F 0 "#PWR03" H 2650 4750 50  0001 C CNN
-F 1 "GND" H 2655 4827 50  0000 C CNN
-F 2 "" H 2650 5000 50  0001 C CNN
-F 3 "" H 2650 5000 50  0001 C CNN
-	1    2650 5000
+F 0 "#PWR03" H 2650 4650 50  0001 C CNN
+F 1 "GND" H 2655 4727 50  0000 C CNN
+F 2 "" H 2650 4900 50  0001 C CNN
+F 3 "" H 2650 4900 50  0001 C CNN
+	1    2650 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2650 4800 2650 5000
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5D821CC2
@@ -659,8 +651,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 3300 5000 3800
 Wire Wire Line
-	5000 3800 4100 3800
-Wire Wire Line
 	4100 3800 4100 3500
 $Comp
 L Device:C_Small C?
@@ -735,19 +725,6 @@ NoConn ~ 6500 4600
 NoConn ~ 6500 3500
 NoConn ~ 6500 3600
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J?
-U 1 1 5D821DF5
-P 2950 3900
-AR Path="/5D821DF5" Ref="J?"  Part="1" 
-AR Path="/5D7FF127/5D821DF5" Ref="J1"  Part="1" 
-F 0 "J1" H 3057 4767 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 3057 4676 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 3100 3900 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3100 3900 50  0001 C CNN
-	1    2950 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Zener D?
 U 1 1 5D821DFB
 P 4450 3400
@@ -809,88 +786,34 @@ Wire Wire Line
 	2300 3950 2300 4450
 Wire Wire Line
 	7800 2900 7650 2900
-Wire Wire Line
-	3550 3800 3700 3800
-Wire Wire Line
-	3700 3800 3700 3900
-Connection ~ 3700 3900
-Wire Wire Line
-	3700 3900 5100 3900
-Wire Wire Line
-	3550 4100 3700 4100
-Wire Wire Line
-	3700 4100 3700 4000
-Connection ~ 3700 4000
-Wire Wire Line
-	3700 4000 5100 4000
-$Comp
-L Device:R_Small R?
-U 1 1 5D821E21
-P 3800 4750
-AR Path="/5D821E21" Ref="R?"  Part="1" 
-AR Path="/5D7FF127/5D821E21" Ref="R2"  Part="1" 
-F 0 "R2" H 3742 4796 50  0000 R CNN
-F 1 "5.1kΩ" H 3742 4705 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3800 4750 50  0001 C CNN
-F 3 "~" H 3800 4750 50  0001 C CNN
-	1    3800 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5D821E27
-P 3950 4750
-AR Path="/5D821E27" Ref="R?"  Part="1" 
-AR Path="/5D7FF127/5D821E27" Ref="R3"  Part="1" 
-F 0 "R3" H 4009 4796 50  0000 L CNN
-F 1 "5.1kΩ" H 4009 4705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3950 4750 50  0001 C CNN
-F 3 "~" H 3950 4750 50  0001 C CNN
-	1    3950 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 3600 3800 3600
-Wire Wire Line
-	3800 3600 3800 4650
-Wire Wire Line
-	3550 3500 3950 3500
-Wire Wire Line
-	3950 3500 3950 4650
 $Comp
 L power:GND #PWR?
 U 1 1 5D821E31
-P 3950 5000
+P 3950 4900
 AR Path="/5D821E31" Ref="#PWR?"  Part="1" 
 AR Path="/5D7FF127/5D821E31" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 3950 4750 50  0001 C CNN
-F 1 "GND" H 3955 4827 50  0000 C CNN
-F 2 "" H 3950 5000 50  0001 C CNN
-F 3 "" H 3950 5000 50  0001 C CNN
-	1    3950 5000
+F 0 "#PWR07" H 3950 4650 50  0001 C CNN
+F 1 "GND" H 3955 4727 50  0000 C CNN
+F 2 "" H 3950 4900 50  0001 C CNN
+F 3 "" H 3950 4900 50  0001 C CNN
+	1    3950 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D821E37
-P 3800 5000
+P 3800 4900
 AR Path="/5D821E37" Ref="#PWR?"  Part="1" 
 AR Path="/5D7FF127/5D821E37" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 3800 4750 50  0001 C CNN
-F 1 "GND" H 3805 4827 50  0000 C CNN
-F 2 "" H 3800 5000 50  0001 C CNN
-F 3 "" H 3800 5000 50  0001 C CNN
-	1    3800 5000
+F 0 "#PWR06" H 3800 4650 50  0001 C CNN
+F 1 "GND" H 3805 4727 50  0000 C CNN
+F 2 "" H 3800 4900 50  0001 C CNN
+F 3 "" H 3800 4900 50  0001 C CNN
+	1    3800 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3800 4850 3800 5000
-Wire Wire Line
-	3950 4850 3950 5000
 Text Notes 4050 5050 0    50   ~ 0
 TODO check cc resistors
-NoConn ~ 3550 4400
-NoConn ~ 3550 4500
 Wire Wire Line
 	5400 5600 5400 5700
 Wire Wire Line
@@ -922,10 +845,6 @@ Wire Wire Line
 Connection ~ 2300 2700
 Wire Wire Line
 	2300 2700 2100 2700
-Wire Wire Line
-	3550 3300 3700 3300
-Wire Wire Line
-	3700 3300 3700 2700
 Connection ~ 3700 2700
 Wire Wire Line
 	3700 2700 2950 2700
@@ -986,9 +905,9 @@ Text Notes 7700 2800 0    50   ~ 0
 Not monitored:
 Text Label 2450 2700 0    50   ~ 0
 5V-LA
-Text Label 4050 3900 0    50   ~ 0
+Text Label 4550 4000 0    50   ~ 0
 USB-LA-D-
-Text Label 4050 4000 0    50   ~ 0
+Text Label 4550 3900 0    50   ~ 0
 USB-LA-D+
 $Comp
 L Device:Crystal Y1
@@ -1003,4 +922,89 @@ F 3 "~" H 4100 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 1900 4350 1900
+Wire Wire Line
+	5000 3800 4100 3800
+Wire Wire Line
+	3700 3800 4050 3800
+Wire Wire Line
+	3700 3200 3700 2700
+Wire Wire Line
+	3550 3200 3700 3200
+NoConn ~ 3550 4400
+NoConn ~ 3550 4300
+Wire Wire Line
+	3950 4750 3950 4900
+Wire Wire Line
+	3800 4750 3800 4900
+Wire Wire Line
+	3950 3400 3950 4550
+Wire Wire Line
+	3550 3400 3950 3400
+Wire Wire Line
+	3800 3500 3800 4550
+Wire Wire Line
+	3550 3500 3800 3500
+$Comp
+L Device:R_Small R?
+U 1 1 5D821E27
+P 3950 4650
+AR Path="/5D821E27" Ref="R?"  Part="1" 
+AR Path="/5D7FF127/5D821E27" Ref="R3"  Part="1" 
+F 0 "R3" H 4009 4696 50  0000 L CNN
+F 1 "5.1kΩ" H 4009 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3950 4650 50  0001 C CNN
+F 3 "~" H 3950 4650 50  0001 C CNN
+	1    3950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D821E21
+P 3800 4650
+AR Path="/5D821E21" Ref="R?"  Part="1" 
+AR Path="/5D7FF127/5D821E21" Ref="R2"  Part="1" 
+F 0 "R2" H 3742 4696 50  0000 R CNN
+F 1 "5.1kΩ" H 3742 4605 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3800 4650 50  0001 C CNN
+F 3 "~" H 3800 4650 50  0001 C CNN
+	1    3800 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3900 5100 3900
+Connection ~ 3700 3900
+Wire Wire Line
+	3700 4000 3700 3900
+Wire Wire Line
+	3550 4000 3700 4000
+Connection ~ 3700 3800
+Wire Wire Line
+	3700 3700 3700 3800
+Wire Wire Line
+	3550 3700 3700 3700
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 5D821DF5
+P 2950 3800
+AR Path="/5D821DF5" Ref="J?"  Part="1" 
+AR Path="/5D7FF127/5D821DF5" Ref="J1"  Part="1" 
+F 0 "J1" H 3057 4667 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 3057 4576 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 3100 3800 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3100 3800 50  0001 C CNN
+	1    2950 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 4700 2650 4900
+Wire Wire Line
+	2950 4700 2950 4900
+Wire Wire Line
+	3550 3900 3700 3900
+Wire Wire Line
+	3550 3800 3700 3800
+Wire Wire Line
+	4050 3800 4050 4000
+Wire Wire Line
+	4050 4000 5100 4000
 $EndSCHEMATC
