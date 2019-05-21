@@ -2,6 +2,8 @@
 
 Schematics and PCB design files.
 
+<img src="https://user-images.githubusercontent.com/5507503/58067893-d7a98500-7b97-11e9-984a-3fcf588c84d0.jpg" width="400">
+
 ## License
 
     RoboRG is a low-cost camera motion control system.
